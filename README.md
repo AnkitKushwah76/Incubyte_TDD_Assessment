@@ -1,24 +1,15 @@
 # README
+* Clone Project Repository from Github url:-
+     * https://github.com/AnkitKushwah76/Incubyte_TDD_Assessment
+     * then cd/Incubyte_TDD_Assessment
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* bundle install
+* Ruby version :- 2.7.5
 
-Things you may want to cover:
+* Rails version :- 7.1.5
 
-* Ruby version
+* For successfully Migrate all the pending migrations
+   * rails db:migrate
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* To run all the test cases
+  * bundle exec rspec spec
